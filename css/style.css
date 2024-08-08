@@ -1,14 +1,38 @@
-*{
-  margin:0;
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   min-height: 100vh;
   max-height: 100%;
   background-color: #191919;
   color: #ffff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.box {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #eeee;
+  color: #191919;
+  width: 60%;
+}
+
+.box div {
+  width: 40%;
+}
+
+.box img {
+  width: 50%;
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+}
